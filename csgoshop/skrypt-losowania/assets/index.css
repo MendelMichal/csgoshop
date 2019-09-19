@@ -1,0 +1,77 @@
+* {
+	border: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+html, body {
+	width: 100%;
+	font-family: Open Sans, sans-serif;
+	background-color: #444;
+	font-size: 20px;
+}
+
+.csgorandom {
+	width: 447px;
+	height: 173px;
+	background: url(background.png);
+	position: relative;
+	overflow: hidden;
+	
+	margin: 32px auto;
+}
+
+.csgorandom>.onground {
+	width: 447px;
+	height: 173px;
+	background: url(onground.png);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.csgorandom>.tape {
+	width: 5200px;
+	height: 173px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	position: relative;
+	font-size: 0;
+}
+
+.csgorandom>.tape>div {
+	display: inline-block;
+	width: 141px;
+	height: 143px;
+	margin: 15px 4px;
+	background: #888;
+}
+
+.csgorandom>.tape>div>.image {
+	width: 141px;
+	height: 100px;
+	background: #888;
+	text-align: center;
+}
+
+.csgorandom>.tape>div>.image>img {
+	width: 100px;
+	height: 100px;
+}
+
+.csgorandom>.tape>div>.info {
+	width: 141px;
+	height: 43px;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #fff;
+	padding: 4px;
+	box-sizing: border-box;
+}

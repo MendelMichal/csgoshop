@@ -1,0 +1,160 @@
+/*----------------------------------------------------------------------------- 
+
+RAMA BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet 
+
+version:   	1.0 
+date:      	07/27/11 
+author:		freshline
+email:     	support@version-four.com 
+website:   	http://www.version-four.com
+-----------------------------------------------------------------------------*/
+
+/***********************
+	-	BASICS 	-
+***********************/
+html {
+	width: 100%;
+	overflow-x:hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color:#d2f6ff;		
+}
+
+ol, ul { 
+    list-style: none; 
+}
+
+a{
+	text-decoration:none;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	color:#211e1c;
+}
+
+.hidden{
+	visibility:hidden;
+}
+/**************************************
+	-	THE BIG BANNER HOLDERS	-
+**************************************/
+.banner900x370{
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+	height:370px;
+	border:1px solid #e1e1e1;
+	background:#fff;
+	padding:10px; 	
+	position:relative;
+	z-index:5;
+	-moz-box-shadow: 0px 0px 3px 0px rgba(2,48,59,0.15);
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(2,48,59,0.15);
+	box-shadow: 0px 0px 3px 0px rgba(2,48,59,0.15);
+}
+
+
+/**********************************************************
+	-	CAPTION SETTINGS FOR THE PARADIGM SLIDER	-
+**********************************************************/	
+
+
+.creative_layer div{ position:absolute;}
+
+.caption_black{
+	font-family: 'Open Sans', sans-serif;
+	font-size:30px;
+	color:#fff;
+	background-color:#211e1c;
+	padding:20px;
+	position:absolute;
+	font-weight: 800;
+	line-height:1;
+}
+
+.caption_black_22{
+	font-family: 'Open Sans', sans-serif;
+	font-size:22px;
+	color:#fff;
+	background-color:#211e1c;
+	padding:20px;
+	position:absolute;
+	font-weight: 800;
+	line-height:1;
+}
+
+.caption_black_noframe{
+	font-family: 'Open Sans', sans-serif;
+	font-size:28px;
+	color:#211e1c;	
+	position:absolute;
+	font-weight: 800;
+	line-height:1;
+}
+
+.caption_simple{
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	color:#211e1c;
+	position:absolute;
+	
+}
+
+.darkbutton{
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	color:#fff;
+	position:absolute;
+	background-color:#211e1c;
+	padding:8px 20px 8px 20px;
+	position:absolute;
+	
+}
+
+.blackbox{
+	background-color:#211e1c;
+	width:192px;
+	height:20px;
+	position:absolute;
+}
+
+a:focus { 
+    outline: none; 
+}
+
+.minicap{
+	font-size:14px;
+	font-weight: normal;
+}
+
+.smallcap{
+	font-size:18px;
+	font-weight: normal;
+}
+
+.largecap{
+	font-size:32px;
+}
+
+.imagecap{
+	position:absolute;
+}
+
+.nobg{
+	background: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	text-shadow: #000 5px 5px 5px;
+}
+
+
+
